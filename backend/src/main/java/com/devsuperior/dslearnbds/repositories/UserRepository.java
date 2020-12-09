@@ -6,5 +6,5 @@ import com.devsuperior.dslearnbds.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 	
-	User findByEmail(String email);
+	User findByEmail(String email); // retorna o username no userdatails no spring security
 }
